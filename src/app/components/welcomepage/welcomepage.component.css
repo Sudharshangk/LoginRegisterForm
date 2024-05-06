@@ -1,0 +1,110 @@
+.navigation-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px; /* Adjust height as desired */
+    position: fixed; /* Fix the bar to the top */
+    top: 0; /* Position it at the top */
+    left: 0; /* Position it at the left edge */
+    width: 100%; /* Make the bar full width */
+    background-color: #b797e1; /* Light purple background */
+    padding: 1rem 2rem;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: purple;
+  }
+  
+  .logo span {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .navigation-links {
+    display: flex;
+    align-items: center; /* Align buttons to center vertically */
+  }
+  
+  .navigation-links li {
+    margin-left: 1rem; /* Add space between buttons */
+  }
+  
+  .navigation-links a {
+    text-decoration: none;
+    color: white; /* Change to white for buttons */
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+  }
+  
+
+  /* .navigation-links {
+    display: flex;
+    flex-grow: 1; /* Grow to fill remaining space */
+    /* list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around; /* Distribute links evenly */
+    /* align-items: flex-end; 
+  } */ 
+  .nav-button-signup {
+    font-weight: bold;
+    color: rgb(250, 248, 248);
+    text-decoration: none; /* Remove underline */
+    padding: 0.5rem 1rem;
+    line-height: 2.7; /* Add some padding for better spacing */
+  }
+
+  .nav-button-login {
+    font-weight: bold;
+    color: rgb(253, 252, 252);
+    text-decoration: none; /* Remove underline */
+    padding: 0.5rem 1rem;
+    line-height: 2.7;
+    text-align: right; /* Add some padding for better spacing */
+  }
+
+  
+  
+  body {
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.183), rgba(48, 14, 244, 0.7)); /* 30% white, 70% light purple */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .hero-content {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .hero-content .logo {
+    font-size: 2rem; /* Increase logo size */
+    color: purple;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    color: black;
+  }
+  
+  .lets-go-button {
+    background-color: purple;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 1rem;
+    text-decoration: none;
+  }
+  
+  .lets-go-button:hover {
+    background-color: #9f86d0; /* Darker purple on hover */
+  }
+  

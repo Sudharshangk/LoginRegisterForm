@@ -1,0 +1,146 @@
+.navigation-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px; /* Adjust height as desired */
+  position: fixed; /* Fix the bar to the top */
+  top: 0; /* Position it at the top */
+  left: 0; /* Position it at the left edge */
+  width: 100%; /* Make the bar full width */
+  background-color: #b797e1; /* Light gray background */
+  padding: 1rem 2rem;
+}
+
+.navigation-links {
+  display: flex; /* Links behave as inline elements */
+  list-style: none; /* Remove default bullet points */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+
+.navigation-links li {
+  /* Added a base line-height for consistency */
+  line-height: 60px; /* Adjust as needed based on font size */
+}
+.navigation-links a {
+  color: black;
+  text-decoration: none; /* Remove underline */
+  padding: 0.5rem 1rem; /* Adjust padding if needed */
+  /* Added a base font-size for consistency */
+  font-size: 16px; /* Adjust as needed */
+}
+.search-bar {
+  padding: 0.5rem 1.5rem; /* Increase right padding for space */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.nav-button a { /* Removed this class as it's not needed anymore */
+  /* These styles were previously defined in .nav-button a, moved here */
+  font-weight: bold;
+  color: white;
+  /* Text decoration is already removed in .navigation-links a */
+  padding: 0.5rem 1rem;
+  line-height: 2.7; /* Adjust as needed for spacing */
+  text-align: right;
+}
+/* .nav-button:hover{
+  background-color: coral;
+} */
+
+.p-helo {
+  text-align: center;
+}
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: purple;
+}
+
+
+.home-articles{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px;
+  height: 100px;
+ 
+
+}
+.home-article{
+width: 33.33%;
+}
+
+.content-wrapper {
+  margin-top: 70px; 
+  display: flex; /* Make it a flex container */
+  flex-wrap: wrap;
+  justify-content: center;/* Adjust the height to match your navigation bar */
+}
+
+
+
+body {
+  background: linear-gradient(to right, rgba(23, 78, 160, 0.183), rgba(48, 14, 244, 0.7)); /* 30% white, 70% light purple */
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+.navigation-bar {
+  /* Styles for the navigation bar */
+}
+
+.content-wrapper {
+  display: flex;
+  flex-wrap: wrap; /* Wrap content to next row */
+  justify-content: center; /* Center content horizontally */
+  gap: 20px; /* Adjust spacing between cards */
+  padding: 20px;
+}
+
+.contact-card {
+  background-color: #fff; /* White background */
+  border: 1px solid #ddd; /* Light gray border */
+  border-radius: 10px; /* Make the box round */
+  padding: 20px;
+  width: 45%; /* Adjust width as needed for 2 columns */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a slight shadow */
+}
+
+.title {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.desc {
+  margin-bottom: 5px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-between; /* Space buttons evenly */
+}
+
+.edit, .delete {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px 0;  /* Add space between buttons vertically */
+}
+
+.edit {
+  background-color: #30a7e7; /* Blue button */
+  color: white;
+  text-decoration: none;
+}
+
+.delete {
+  background-color: #e74c3c; /* Red button */
+  color: white;
+  text-decoration: none;
+}

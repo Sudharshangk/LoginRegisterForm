@@ -1,0 +1,68 @@
+body {
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.183), rgba(48, 14, 244, 0.7)); /* 30% white, 70% light purple */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.registration-form {
+    padding: 20px;
+    border: 1px solid #2e4067;
+    border-radius: 4px;
+    background-color: #7b52c1;
+    width: 300px;
+    text-align: center;
+}
+
+.registration-form h2 {
+    margin-bottom: 20px;
+}
+
+.registration-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.registration-button {
+    background-color: rgb(74, 9, 225); /* Green button as requested */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.h2{
+    color: #ccc;
+}
+.registration-button:hover {
+    opacity: 0.8;
+}
+
+/* Basic success popup styles (can be enhanced further) */
+.success-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999; /* Ensure popup is above other elements */
+    visibility: hidden; /* Initially hidden */
+}
+
+.success-popup .message {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-align: center;
+}
